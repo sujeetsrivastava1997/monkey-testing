@@ -31,7 +31,7 @@ public class TestUsingGremlins {
     }
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver","/home/knoldus/Documents/MonkeyTestingDemo/src/test/resources/chromedriver_linux64/chromedriver");
+        System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver_linux64/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://demoqa.com/");
